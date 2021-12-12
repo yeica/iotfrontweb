@@ -1,0 +1,37 @@
+:root {
+    --red: #ff1100;
+    --red-hover: #cc1407;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+#trigger-btn {
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+
+    background-color: var(--red);
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#trigger-btn:hover {
+    background-color: var(--red-hover);
+    cursor: pointer;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Lights</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <h1>Traffic Lights</h1>
+    </header>
+    <main>
+        <div class="tl-container">
+            <div class="tl-body">
+                <div class="tl-light" id="tl-green"></div>
+                <div class="tl-light" id="tl-yellow"></div>
+                <div class="tl-light" id="tl-red"></div>
+            </div>
+        </div>
+        <div class="tl-message">
+            <p>Traffic light is currently: <strong id="tl-light-status"></strong></p>
+        </div>
+
+        <div class="btn-container">
+            <input type="button" id="tl-green-btn" value="GREEN">
+            <input type="button" id="tl-yellow-btn" value="YELLOW">
+            <input type="button" id="tl-red-btn" value="RED">
+        </div>
+    </main>
+    <script src="js/tl_lights.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crosswalk Display</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body id="body">
+    <main>
+        <section>
+            <h1>Crosswalk Display</h1>
+            <div class="display-container">
+                <h2 id="crosswalk-status">CROSS</h2>
+                <div class="display">
+                    <div class="display-img">
+                        <img id="img" src="assets/pedestrian-walking.png" alt="">
+                    </div>
+                    <div class="display-time-left">
+                        <p id="time-left">30</p>
+                        <p>SECONDS</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <input type="button" id="cross-btn" value="CROSS">
+            <input type="button" id ="wait-btn" value="WAIT">
+            <input type="button" id="stop-btn" class="btn-change-status" value="STOP">
+        </section>
+    </main>
+    <script src="js/main.js"></script>
+    <!--<script>startDisplay()</script>-->
+</body>
+</html>

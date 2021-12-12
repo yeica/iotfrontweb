@@ -1,0 +1,45 @@
+:root {
+    --tl-green: #008450;
+    --tl-yellow: #EFB700;
+    --tl-red: #B81D13;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.display-container h2 {
+    font-size: 2.5rem;
+}
+
+.display-img img {
+    width: 400px;
+    height: 400px;
+}
+
+.display-time-left p {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.display-time-left #time-left {
+    font-size: 5rem;
+}
+
+.body-red {
+    background-color: var(--tl-red);
+}
+
+.body-green {
+    background-color: var(--tl-green);
+}
+
+.body-yellow {
+    background-color: var(--tl-yellow);
+}
